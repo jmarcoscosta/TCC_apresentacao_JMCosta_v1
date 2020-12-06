@@ -5,7 +5,7 @@
 % versao 1.1								 %
 % Atualizado em 14/05/2016					 %
 %--------------------------------------------%
-\documentclass[handout,t]{beamer}
+\documentclass[handout]{beamer}
 % Para alterar a linguagem do documento
 \usepackage[portuges]{babel}
 % Para aceitar caracteres especias deretamente do teclado
@@ -40,7 +40,8 @@
 \usecolortheme{ufrn}
 % Para numerar as figuras
 \setbeamertemplate{caption}[numbered]
-
+\usepackage{caption}
+\renewcommand{\thefigure}{\hspace{-.333333em}}
 % Título
 \title[Trabalho de conclusão de curso]{
 	Implementação do sistema de arquivos SquashFS no bootloader U-Boot}

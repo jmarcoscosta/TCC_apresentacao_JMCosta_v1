@@ -74,3 +74,57 @@
     \label{fig:my_label}
 \end{figure}
 \end{frame}
+
+\begin{frame}{Conceito-chave: bootloader}
+    \begin{itemize}
+        \item Carregar o kernel na memória RAM e inicializá-lo
+        \item Soluções embarcadas populares: U-Boot e Barebox
+        \item Soluções desktop: GRUB, Windows Boot Manager, etc.
+    \end{itemize}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.3]{figuras/bootloader.png}
+        %\captionsetup{labelformat=empty}
+        \caption{Funcionamento do bootloader}
+        \label{fig:my_label}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Conceito-chave: sistema de arquivos}
+    
+    \begin{itemize}
+        \item Gerenciar o armazenamento de dados e metadados
+        \item Oferece uma metodologia de organização para arquivos e pastas (diretórios)
+        \item Implementado sob forma de arborescência
+        \item Exemplos: SquashFS, FAT, ext*, NTFS, etc.
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Conceito-chave: sistema de arquivos}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.4]{figuras/FHS.pdf}
+        \caption{Hierarquias de sistema de arquivo (padrão UNIX)}
+        \label{fig:my_label}
+    \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.4]{figuras/windows.pdf}
+        \caption{Hierarquias de sistema de arquivo no Windows}
+        \label{fig:my_label}
+    \end{figure}
+    \end{column}
+    
+    \end{columns}
+\end{frame}
+
+
+
+
+ 
