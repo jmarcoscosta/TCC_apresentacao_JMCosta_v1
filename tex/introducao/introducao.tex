@@ -8,7 +8,6 @@
 \end{frame}
 
 \begin{frame}{ENSICAEN}
-
 \begin{itemize}
     \item École nationale supérieure d'ingénieurs de Caen
     \item Situada em Caen (França), na região da Normandia
@@ -17,16 +16,14 @@
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.1]{figuras/ENSICAEN-batiment-A.jpg}
-    \includegraphics[scale=0.1]{figuras/ENSICAEN-batiment-A.jpg}
+    \includegraphics[width=0.4\columnwidth]{figuras/ENSICAEN-batiment-A.jpg}
+    \includegraphics[scale=0.085]{figuras/pessoal_ensi.jpeg}
     %\caption{Caption}
     \label{fig:my_label}
 \end{figure}
-    
 \end{frame}
 
 \begin{frame}{Bootlin}
-
     \begin{itemize}
         \item Empresa prestadora de serviços e treinamentos em Linux embarcado
         \item Forte presença no mundo do software livre
@@ -39,5 +36,41 @@
         %\caption{Logo da empresa}
         \label{fig:my_label}
     \end{figure}
+\end{frame}
 
+
+\begin{frame}{Contexto}
+\begin{itemize}
+    \item SquashFS é um sistema de arquivos comprimido e \textit{read-only}, amplamente utilizado
+    \item Suportado pelo kernel Linux e por bootloaders populares como o Barebox
+    \item U-Boot é o bootloader de código aberto mais popular para sistemas embarcados, mas não suportava o SquashFS até então
+    \item Consequência: incapaz de ler partições formatadas com SquashFS
+    \item Objetivo principal: adicionar o suporte ao SquashFS e integrá-lo ao código oficial do U-Boot
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Contexto}
+\begin{center}
+\begin{itemize}
+    \item O suporte ao SquashFS é uma demanda antiga
+    \item Requisitado pela comunidade do Linux embarcado
+    \item Fluxo de trabalho: contribuir para um projeto de código aberto de destaque e entrar em contato com sua comunidade
+\end{itemize}    
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.06]{figuras/uboot_logo.png}
+    %\caption{Caption}
+    \label{fig:my_label}
+\end{figure}
+\end{center}
+\end{frame}
+
+\begin{frame}{SquashFS}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.4]{figuras/squashfs_propriedades (1).png}
+    %\caption{Caption}
+    \label{fig:my_label}
+\end{figure}
 \end{frame}
