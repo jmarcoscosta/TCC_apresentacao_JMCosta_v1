@@ -36,6 +36,10 @@
 \usepackage{capt-of}
 % Para definir o tema do slide
 \usetheme{Berlin}
+
+\usepackage{minted}
+\definecolor{blcodebg}{rgb}{0.9,0.9,0.9}
+
 % Para difinir cores e background
 \usecolortheme{ufrn}
 % Para numerar as figuras
@@ -73,17 +77,13 @@
 \begin{document}
 % Sumário
 \frame{\titlepage}
-\section[]{}
+%\section[]{}
 \begin{frame}{Sumário}
 	\tableofcontents
 \end{frame}
-
 % Introducao
 
 \include{tex/introducao/introducao}
-
-
-
 
 % Metodologia
 \include{tex/metodologia/metodologia}
